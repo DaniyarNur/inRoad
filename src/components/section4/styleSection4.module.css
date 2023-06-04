@@ -1,0 +1,46 @@
+/* Rectangle 235 */
+.plate {
+
+    /*size and boxmodel*/
+    width: 83vw;
+    margin: 5vh auto 5vh auto;
+
+    /*font preferences*/
+    color: black;
+    text-align: left;
+    font-size: 14px;
+}
+
+.innerBlock {
+    /*flex preferences*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left {
+    margin: 20px 20px 20px 0;
+    width: 60%;
+}
+
+.right {
+    margin: 20px 0 20px 0;
+    width: 40%;
+}
+
+p.large {
+    font-size: 1.3em;
+    /*font-weight: 500;*/
+    margin: 0;
+}
+
+p.simple {
+    margin: 0;
+}
+
+p.title {
+    font-size: 1.4em;
+    color: #0A4EE7;
+    font-weight: 500;
+    margin-bottom: 0;
+}

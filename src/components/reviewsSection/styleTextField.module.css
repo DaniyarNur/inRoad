@@ -1,0 +1,17 @@
+.plate {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid blue;
+
+    /*a bit larger then simple font size*/
+    margin-top: 18px;
+}
+
+img.icon {
+    height: 20px;
+    margin-right: 1vw;
+}
+
+p.simple {
+    margin: 0;
+}

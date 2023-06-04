@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 8vw 20px 8vw;
+}
+
+.logoDiv {
+    width: 10vw;
+}
+
+.logo {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding-left: 7vw;
+    position: relative;
+}
+.navButton {
+    margin-right: 4vw;
+    background-color: #FFFFFF;
+    border: none;
+    font-weight: 500;
+}
+
+
+.langPick {
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.lang {
+    margin-left: 2vw;
+    align-self: flex-end;
+    color: #757575;
+    font-weight: 500;
+}
+
+.bottom {
+    align-self: flex-end;
+}
+
+.picked {
+    color: #0A4EE7;
+
+}
+
+.cursorOnHover{
+    cursor: pointer;
+}

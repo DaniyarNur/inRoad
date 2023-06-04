@@ -1,0 +1,92 @@
+/* Rectangle 235 */
+.plate {
+
+    /*size and boxmodel*/
+    width: 80vw;
+    margin: 5vh auto 5vh auto;
+
+    /*font preferences*/
+    color: black;
+    text-align: left;
+    font-size: 14px;
+}
+
+.box {
+
+    padding: 10px;
+
+    border: solid 2px #0A4EE7;
+    border-radius: 30px;
+
+    /*flex preferences*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left {
+    margin: 20px 20px 20px 20px;
+    width: 40%;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.right {
+    margin: 20px 20px 20px 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    background-color: #EDEDED;
+    font-size: 0.8em;
+    color: #757575;
+    margin-bottom: 7px;
+}
+
+textarea {
+    margin-top: 3px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+button.send {
+    width: 180px;
+    height: 40px;
+    background-color: #FFFFFF;
+
+    margin-top: 15px;
+
+
+    border-radius: 30px;
+    border: 3px solid #0A4EE7;
+
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+p.large {
+    font-size: 1.3em;
+    /*font-weight: 500;*/
+    margin: 0;
+}
+
+p.simple {
+    margin: 0;
+}
+
+p.title {
+    font-size: 1.4em;
+    color: #0A4EE7;
+    font-weight: 500;
+}
+
+.cursorOnHover{
+    cursor: pointer;
+}
