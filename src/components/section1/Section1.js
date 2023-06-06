@@ -10,19 +10,21 @@ export const Section1 = () => {
 
     return(
         <div className={styles.plate}>
-            {/*<div className={styles.wrapper}>*/}
-            {/*    <span className={styles.blue}>ОТСЛЕЖИВАЙТЕ</span><br/>*/}
-            {/*    <div>*/}
-            {/*        <div className={[styles.cwTilt, styles.blueBackground, styles.anim].join(' ')}></div>*/}
-            {/*        <span>НЕРОВНОСТИ</span><br/>*/}
-            {/*    </div>*/}
-            {/*    /!*<span className={[styles.cwTilt, styles.blueBackground, styles.anim].join(' ')}><h1>НЕРОВНОСТИ</h1></span><br/>*!/*/}
-            {/*    <span className={styles.blue}>НА ДОРОГАХ</span><br/>*/}
-            {/*    <span className={styles.blue}>С <span className={[styles.ccwTilt, styles.blueBackground, styles.anim].join(' ')}>INROAD</span></span>*/}
-            {/*</div>*/}
-            <div className={styles.left}>
-                <img src={text} alt={"text"} className={styles.text}/>
+            <div className={styles.wrapper}>*/}
+                <span className={styles.blue}>ОТСЛЕЖИВАЙТЕ</span><br/>*/}
+                <div className={styles.wrapper}>
+                    <span className={styles.blue}>ОТСЛЕЖИВАЙТЕ</span><br/>
+                    <div>
+                        <div className={[styles.cwTilt, styles.blueBackground, styles.anim].join(' ')}></div>
+                        <span>НЕРОВНОСТИ</span><br/>
+                    </div>
+                <span className={[styles.cwTilt, styles.blueBackground, styles.anim].join(' ')}><h1>НЕРОВНОСТИ</h1></span><br/>
+                <span className={styles.blue}>НА ДОРОГАХ</span><br/>
+                <span className={styles.blue}>С <span className={[styles.ccwTilt, styles.blueBackground, styles.anim].join(' ')}>INROAD</span></span>
             </div>
+//             <div className={styles.left}>
+//                 <img src={text} alt={"text"} className={styles.text}/>
+//             </div>
             <div className={styles.right}>
                 <p>С помощью смартфона<br/> вы можете помочь в улучшении<br/> качества дорог в вашем городе</p>
                 <div className={styles.links}>
