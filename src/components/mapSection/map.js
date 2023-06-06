@@ -4,7 +4,6 @@ import { useMemo} from "react";
 import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api"
 import dot from "../../assets/redDot.png"
 
-// import axios from "axios";
 
 export const Map = () => {
 
